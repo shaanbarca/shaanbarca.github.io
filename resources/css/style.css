@@ -9,7 +9,7 @@ header {
     background-image: url("../images/WallpaperDog-485943.jpg");
     background-size: cover;
     background-position: bottom center;
-    height: 700px;
+    height: 800px;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -23,11 +23,10 @@ h1 {
 }
 
 header h1 {
-  position: absolute;
-  width: 400px;
-  margin: 0 auto;
-  top: 450px;
-  left: 500px;
+  position:absolute;
+  width:100%;
+  bottom:100;
+  text-align:center;
 
 }
 
@@ -39,7 +38,7 @@ p {
     margin-right: 500px;
     line-height: 2.3;
     margin-bottom: 70px;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 li{
@@ -74,16 +73,6 @@ a {
     text-decoration: none;
     font-size: 17px;
   }
-  
-  /* .navbar a:hover {
-    background: #f1f1f1;
-    color: black;
-  }
-  
-  .navbar a.active {
-    background-color: #04AA6D;
-    color: white;
-  } */
 
   .topnav {
     overflow: hidden;
